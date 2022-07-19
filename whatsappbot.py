@@ -12,12 +12,8 @@ txt = open('animals.txt', 'r')
 randomLetter = random.choice(string.ascii_letters)
 print(randomLetter)
 
-a = "@"
-b = "is a"
+b = ""
 
 for i in txt:
-    pg.write(a)
-    pg.write(randomLetter)
-    pg.press("Enter")
-    pg.write(a + ' ' + i)
+    pg.write('You are a ' + i)
     pg.press("Enter")
