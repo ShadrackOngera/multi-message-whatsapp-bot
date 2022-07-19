@@ -3,6 +3,7 @@
 
 First install pycharm or any IDE.
 
+git clone the project and open in your IDE
 
 install pyautogui. 
 
